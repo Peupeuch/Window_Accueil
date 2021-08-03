@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="logo_virtual-dj.png" />
+    <None Remove="logo_virtualdj.png" />
+    <None Remove="spotify.png" />
+    <None Remove="wallpaper_dj.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="logo_virtual-dj.png" />
+    <Resource Include="logo_virtualdj.png" />
+    <Resource Include="spotify.png" />
+    <Resource Include="wallpaper_dj.jpg" />
+  </ItemGroup>
+
+</Project>
